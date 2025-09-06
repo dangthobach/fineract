@@ -170,16 +170,6 @@ dependencies {
         exclude group: 'com.sun.activation'
     }
 
-    implementation('org.owasp.esapi:esapi') {
-        exclude group: 'org.slf4j'
-        exclude group: 'log4j'
-        exclude group: 'commons-logging'
-        exclude group: 'commons-collections'
-        exclude group: 'commons-lang'
-        exclude group: 'spotbugs-annotations'
-        exclude group: 'xml-apis'
-    }
-
     runtimeOnly('org.glassfish.jaxb:jaxb-runtime') {
         exclude group: 'com.sun.activation'
     }
@@ -207,7 +197,6 @@ dependencies {
     // Do NOT repeat dependencies which are ALREADY in implementation or runtimeOnly!
     //
     testImplementation( 'io.cucumber:cucumber-spring',
-            'io.github.classgraph:classgraph',
             'io.cucumber:cucumber-core',
             'io.cucumber:cucumber-java',
             'io.cucumber:cucumber-java8',

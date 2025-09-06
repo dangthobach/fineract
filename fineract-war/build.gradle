@@ -22,6 +22,12 @@ apply plugin: 'war'
 apply plugin: 'distribution'
 apply from: "${rootDir}/buildSrc/src/main/groovy/org.apache.fineract.dependencies.gradle"
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
 war {
     description = 'Assembles a WAR archive containing the web application'
     archiveFileName = 'fineract-provider.war'

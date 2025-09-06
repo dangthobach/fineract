@@ -85,3 +85,7 @@ coverage/
 # Build outputs
 build/
 dist/
+
+# Temporary analysis files
+dependency-cleanup-analysis.md
+dependency-cleanup-report.md

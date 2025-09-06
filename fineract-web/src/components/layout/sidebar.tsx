@@ -149,6 +149,11 @@ export function Sidebar({ className }: SidebarProps) {
       icon: 'Calculator',
     },
     {
+      name: 'Organization',
+      href: '/organization',
+      icon: 'Building2',
+    },
+    {
       name: 'Reports',
       href: '/reports',
       icon: 'FileText',

@@ -48,6 +48,15 @@ yarn-error.log*
 out/
 dist/
 
+# Frontend development files
+fineract-web/src/services/
+fineract-web/src/app/test/
+fineract-web/src/app/loans/loan-application-form/
+fineract-web/src/app/loans/loan-calculator/
+fineract-web/src/app/loans/loan-list/
+fineract-web/src/lib/api/savings-products.ts
+fineract-web/src/types/savings-products.ts
+
 # Environment variables
 .env
 .env.local

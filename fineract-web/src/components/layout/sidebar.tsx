@@ -97,12 +97,36 @@ export function Sidebar({ className }: SidebarProps) {
       href: '/loans',
       icon: 'CreditCard',
       badge: '1,423',
+      children: [
+        {
+          name: 'Loan Portfolio',
+          href: '/loans',
+          icon: 'CreditCard',
+        },
+        {
+          name: 'Analytics',
+          href: '/loans/analytics',
+          icon: 'TrendingUp',
+        },
+      ],
     },
     {
       name: 'Savings',
       href: '/savings',
       icon: 'PiggyBank',
       badge: '3,156',
+      children: [
+        {
+          name: 'Savings Accounts',
+          href: '/savings',
+          icon: 'PiggyBank',
+        },
+        {
+          name: 'Analytics',
+          href: '/savings/analytics',
+          icon: 'TrendingUp',
+        },
+      ],
     },
     {
       name: 'Fixed Deposits',
